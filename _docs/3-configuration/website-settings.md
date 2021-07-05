@@ -8,7 +8,7 @@ order: 6
 
 Filename of the home page, defaults to `index.html`. This is useful if
 - your web server expects another file name
-- you already have an `index.html` and want to galleries to sit next to it
+- you already have an `index.html` and want the galleries to sit next to it
 
 > \-\-albums-output-folder &lt;string&gt;
 
