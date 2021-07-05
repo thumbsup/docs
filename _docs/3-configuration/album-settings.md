@@ -55,7 +55,7 @@ For example, if a photo is tagged with `sunset` and `beach`:
 ##### Multiple albums
 
 A file can belong to zero, one or many albums.
-One the command line, simply specify the flag multiple times:
+On the command line, simply specify the flag multiple times:
 
 ```bash
 thumbsup --albums-from "Folders/%path" --albums-from "Years/{YYYY}"
