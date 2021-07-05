@@ -74,7 +74,7 @@ You can print a full text-only log using `--log <value>`.
 When running outside of a TTY environment, thumbsup automatically defaults
 to `--log info` if not specified.
 
-If you have facing any issues, you can raise them at
+If you face any issues, you can raise them at
 [https://github.com/thumbsup/thumbsup/issues](https://github.com/thumbsup/thumbsup/issues).
 Make sure to check existing issues first, and please provide as much detail as possible including:
 
