@@ -12,7 +12,7 @@ This optional pattern controls which files to include instead.
 
 - It must be a valid *glob* pattern such as `**/IMG_*`
 - When targeting a folder name, make sure it's followed by stars, such as `holidays/**`
-- If specified multiples times, files matching **any** of the patterns will be included
+- If specified multiple times, files matching **any** of the patterns will be included
 - This does not change the kind of extensions that are supported (`**/*.doc` will not include Word documents)
 
 When using a JSON config file, make sure that this value is an array, such as
