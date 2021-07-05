@@ -5,7 +5,7 @@ order: 1
 ---
 
 Thumbsup is a fully static generator. The output is fully self-contained, and uses relative links.
-This means it be browsed from disk in your favorite browser, or hosted on any simple web server.
+This means it can be browsed from disk in your favorite browser, or hosted on any simple web server.
 There is no application server needed.
 
 ### Generated gallery structure
