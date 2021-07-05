@@ -85,7 +85,7 @@ For example:
 ```bash
 thumbsup --input /docs/photos --output /docs/website --photo-download link
 # given a photo called holidays/IMG_0001.jpg
-# the download link will points to ../photos/holidays/IMG_0001.jpg
+# the download link will point to ../photos/holidays/IMG_0001.jpg
 ```
 
 This can be overridden with any relative or absolute path, or a URL. For example:
