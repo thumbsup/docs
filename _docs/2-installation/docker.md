@@ -4,7 +4,10 @@ category: Installation
 order: 3
 ---
 
-Thumbsup is published as a Docker image called [thumbsupgallery/thumbsup](https://hub.docker.com/r/thumbsupgallery/thumbsup/).
+Thumbsup is published as a Docker image in the GitHub package repository called
+[thumbsup/thumbsup](https://github.com/thumbsup/thumbsup/pkgs/container/thumbsup).
+It is available for amd64, arm/v7 and arm64.
+
 To create a gallery, you will need to mount one or several folders so that the container can access:
 - the input folder with photos & videos
 - the output folder to write the gallery
@@ -16,7 +19,7 @@ For example:
 docker run -t              \
   -v "$(pwd):/work"        \
   -u $(id -u):$(id -g)     \
-  thumbsupgallery/thumbsup \
+  ghcr.io/thumbsup/thumbsup \
   thumbsup --input /work/media --output /work/gallery
 ```
 
@@ -27,7 +30,7 @@ docker run -t                   \
   -v /Volumes/photos:/input:ro  \  # the input folder can be read-only
   -v "$(pwd)/website:/output"   \
   -u $(id -u):$(id -g)          \
-  thumbsupgallery/thumbsup      \
+  ghcr.io/thumbsup/thumbsup      \
   thumbsup --input /input --output /output
 ```
 
