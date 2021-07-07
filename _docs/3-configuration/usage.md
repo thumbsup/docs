@@ -14,7 +14,7 @@ thumbsup --input "/media/photos" --output "./website"
 or as complex as
 
 ```bash
-thumbsup --input "/media/photos" --output "./website" --title "My holidays" --thumb-size 200 --large-size 1500 --original-photos true --original-videos false --albums-from "{YYYY/MM}" --sort-albums-by date --theme cards --theme-style "./custom.less" --google-analytics "UA-999999-9"
+thumbsup --input "/media/photos" --output "./website" --title "My holidays" --thumb-size 200 --large-size 1500 --original-photos true --original-videos false --albums-from "{YYYY/MM}" --sort-albums-by start-date --theme cards --theme-style "./custom.less" --google-analytics "UA-999999-9"
 ```
 
 See the [cheat sheet](../cheat-sheet) for a list of all possible settings, or dive into these sections for details about every single option:
